@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        .box{
+            height: 50px; width: 50px;
+            text-align: center;
+            background-color: chocolate;
+            border: 5px solid black;
+            margin: 5px;
+            border-radius: 10px;
+            display: block; 
+        }
+          .boxx{
+            height: 50px; width: 50px;
+            text-align: center;
+            background-color: chocolate;
+            border: 5px solid black;
+            margin: 5px;
+            border-radius: 10px;
+            display: inline; 
+        }
+         .boxs{
+            height: 50px; width: 50px;
+            text-align: center;
+            background-color: chocolate;
+            border: 5px solid black;
+            margin: 5px;
+            border-radius: 10px;
+            display: inline-block;
+         }
+         #boxs{
+            height: 50px; width: 50px;
+            text-align: center;
+            background-color: chocolate;
+            border: 5px solid black;
+            margin: 5px;
+            border-radius: 10px;
+            display: none;
+         }
+    </style>
+</head>
+<body>
+    <p><b>Block</b></p>
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <hr>
+    <p><b>Inline</b></p>
+
+    <div class="boxx">Class 1</div>
+    <div class="boxx">Class 2</div>
+    <div class="boxx">Class 3</div>
+        <hr>
+    <p><b>Inline-block</b></p>
+
+    <div class="boxs">Class 1</div>
+    <div class="boxs">Class 2</div>
+    <div class="boxs">Class 3</div>
+    <hr>
+    <p><b>None Property</b></p>
+    <div id="boxs">Class 1</div>
+    <div class="boxs">Class 3</div>
+    
+
+
+</body>
+</html>
