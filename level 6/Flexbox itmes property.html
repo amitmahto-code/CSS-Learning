@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Property</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            background-color: thistle;
+        }
+        #Container{
+            height: 500px;
+            width: 700px;
+            background-color:rgb(72, 65, 76);
+            margin: 20px;
+            border: 5px solid red;
+            border-radius: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .box{
+            margin: 15px;
+            height: 70px;
+            width: 100px;
+            border: 5px solid;
+            text-align: center;
+            flex-grow: 1;
+            
+            
+        }
+        #box1{
+            background-color: aqua;
+            flex-shrink: 0; 
+            }
+        #box2{background-color: rgba(60, 49, 162, 0.873);
+            flex-grow: 2;
+            }
+        #box3{background-color: rgb(248, 234, 37); }
+        #box4{background-color: rgb(206, 61, 9);}
+        #box5{background-color: rgb(164, 22, 196);}
+        #box6{background-color: rgb(247, 29, 200);}
+        
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Flexbox Container</h1>
+    <div id="Container">
+        <div id="box1" class="box"> Items 1</div>
+        <div id="box2" class="box"> Items 2</div>
+        <div id="box3" class="box"> Items 3</div>
+        <div id="box4" class="box"> Items 4</div>
+        <div id="box5" class="box"> Items 5</div>
+        <div id="box6" class="box"> Items 6</div>
+    </div>
+</body>
+</html>
